@@ -19,8 +19,8 @@ filters:
 qingning_remote:
   enabled: true
   urls:
-    - https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/Zhou-Li-Bin/Tvbox-QingNing@main/README.md
-    - https://g.3344550.xyz/https://fastly.jsdelivr.net/gh/Zhou-Li-Bin/Tvbox-QingNing@main/README.md
+    - https://g.3344550.xyz/https://raw.githubusercontent.com/Zhou-Li-Bin/Tvbox-QingNing/main/README.md
+    - https://ghproxy.net/https://raw.githubusercontent.com/Zhou-Li-Bin/Tvbox-QingNing/main/README.md
   output: data/qingning_single.json
   single_name_template: "🌟{name}🌟"
   remark_template: "青宁自动抓取：{name}"
@@ -42,7 +42,7 @@ pipelines:
     expand:
       level2_output_dir: dist/routes/storehouses/qingning
       level2_public_templates:
-        - https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/{repo}@{branch}/{path}
+        - https://g.3344550.xyz/https://raw.githubusercontent.com/{repo}/{branch}/{path}
         - https://raw.githubusercontent.com/{repo}/{branch}/{path}
         - https://ghproxy.net/https://raw.githubusercontent.com/{repo}/{branch}/{path}
 
@@ -55,7 +55,7 @@ pipelines:
       level2_field: urls
       level2_output_dir: dist/routes/storehouses/nxog
       level2_public_templates:
-        - https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/{repo}@{branch}/{path}
+        - https://g.3344550.xyz/https://raw.githubusercontent.com/{repo}/{branch}/{path}
         - https://raw.githubusercontent.com/{repo}/{branch}/{path}
         - https://ghproxy.net/https://raw.githubusercontent.com/{repo}/{branch}/{path}
 
@@ -68,6 +68,5 @@ pipelines:
 
 domestic:
   templates:
-    - https://raw.githubusercontent.com/{repo}/{branch}/{path}
+    - https://g.3344550.xyz/https://raw.githubusercontent.com/{repo}/{branch}/{path}
     - https://ghproxy.net/https://raw.githubusercontent.com/{repo}/{branch}/{path}
-    - https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/{repo}@{branch}/{path}

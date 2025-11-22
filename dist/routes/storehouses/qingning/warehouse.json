@@ -1,6 +1,26 @@
 {
   "urls": [
     {
+      "name": "🌟肥猫🌟",
+      "url": "http://肥猫.com/"
+    },
+    {
+      "name": "🌟饭太硬🌟",
+      "url": "http://www.饭太硬.com/tv"
+    },{
+      "name": "🌟小米🌟",
+      "url": "https://mpanso.me/DEMO.json"
+    },{
+      "name": "🌟王二小🌟",
+      "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/"
+    },{
+      "name": "🌟南风🌟",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
+    },{
+      "name": "🌟菜妮丝🌟",
+      "url": "https://tvbox.cainisi.c"
+    },
+    {
       "name": "🌟巧记🌟",
       "url": "http://cdn.qiaoji8.com/tvbox.json"
     },

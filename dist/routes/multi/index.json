@@ -2,11 +2,7 @@
   "storeHouse": [
     {
       "sourceName": "🌹warehouse🌹",
-<<<<<<< HEAD
       "sourceUrl": "https://g.3344550.xyz/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json",
-=======
-      "sourceUrl": "https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/storehouses/qingning/warehouse.json",
->>>>>>> c1f7a08efe66b803de1ed5d4f0e23dc0ef85a3d7
       "sourceRemark": "🌹warehouse🌹"
     },
     {

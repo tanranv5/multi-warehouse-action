@@ -37,10 +37,10 @@ jobs:
           name: multi-warehouse-data
           path: |
             dist/*.json
-            dist/*.txt
+            dist/**/*.json
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: 更新多仓数据'
-          file_pattern: 'dist/*.json dist/*.txt'
+          file_pattern: 'dist/**/*.json'

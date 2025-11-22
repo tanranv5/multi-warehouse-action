@@ -492,7 +492,6 @@ def validate_single_sources(
     if not validation_settings or validation_settings.get("enabled", True) is False:
         return sources
     timeout = validation_settings.get("timeout", 10)
-    require_json = validation_settings.get("require_json", False)
     headers = headers_override or validation_settings.get("headers") or {}
     max_count = validation_settings.get("max_count")
 
@@ -504,8 +503,7 @@ def validate_single_sources(
         try:
             resp = requests.get(url, headers=headers, timeout=timeout)
             resp.raise_for_status()
-            if require_json:
-                json.loads(resp.text)
+            json.loads(resp.text)
             validated.append(item)
         except Exception as exc:  # noqa: BLE001
             print(f"[WARN] 跳过不可用单仓 {url}: {exc}")

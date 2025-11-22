@@ -1,5 +1,5 @@
 defaults:
-  timeout: 12
+  timeout: 30
   retries: 3
   headers:
     User-Agent: okhttp/3.12.0
@@ -27,7 +27,6 @@ qingning_remote:
   validation:
     enabled: true
     timeout: 4
-    require_json: true
     max_count: 20
 
 pipelines:

@@ -6,7 +6,7 @@
     "mirrors": [
       "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json",
       "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json",
-      "https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/storehouses/qingning/warehouse.json"
+      "https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/storehouses/qingning/warehouse.json"
     ],
     "metadata": {
       "origin": "warehouse",
@@ -20,7 +20,7 @@
     "mirrors": [
       "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/multi/index.json",
       "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/multi/index.json",
-      "https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/multi/index.json"
+      "https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/multi/index.json"
     ],
     "metadata": {}
   }

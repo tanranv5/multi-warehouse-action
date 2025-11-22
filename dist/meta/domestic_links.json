@@ -4,8 +4,14 @@
     "type": "storehouse",
     "path": "dist/routes/storehouses/qingning/warehouse.json",
     "mirrors": [
+<<<<<<< HEAD
       "https://g.3344550.xyz/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json",
       "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json"
+=======
+      "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json",
+      "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json",
+      "https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/storehouses/qingning/warehouse.json"
+>>>>>>> c1f7a08efe66b803de1ed5d4f0e23dc0ef85a3d7
     ],
     "metadata": {
       "origin": "warehouse",
@@ -56,8 +62,14 @@
     "type": "pipeline",
     "path": "dist/routes/multi/index.json",
     "mirrors": [
+<<<<<<< HEAD
       "https://g.3344550.xyz/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/multi/index.json",
       "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/multi/index.json"
+=======
+      "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/multi/index.json",
+      "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/multi/index.json",
+      "https://g.3344550.xyz/https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/multi/index.json"
+>>>>>>> c1f7a08efe66b803de1ed5d4f0e23dc0ef85a3d7
     ],
     "metadata": {}
   }

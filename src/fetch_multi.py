@@ -228,9 +228,19 @@ class RouteBuilder:
     def _fetch_json(self, url: str) -> Dict[str, Any]:
         headers = self.defaults.get("headers", {})
         timeout = self.defaults.get("timeout", 10)
-        response = requests.get(url, headers=headers, timeout=timeout)
-        response.raise_for_status()
-        return response.json()
+        attempts = self.defaults.get("retries", 3)
+        last_exc: Optional[Exception] = None
+        for attempt in range(1, attempts + 1):
+            try:
+                response = requests.get(url, headers=headers, timeout=timeout)
+                response.raise_for_status()
+                return response.json()
+            except Exception as exc:  # noqa: BLE001
+                last_exc = exc
+                if attempt < attempts:
+                    time.sleep(min(2 ** attempt, 5))
+                else:
+                    raise
 
     def _fetch_level2_urls(self, url: str, field: str) -> List[Dict[str, Any]]:
         headers = self.defaults.get("headers", {})

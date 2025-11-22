@@ -4,9 +4,9 @@
     "type": "storehouse",
     "path": "dist/routes/storehouses/qingning/warehouse.json",
     "mirrors": [
-      "https://raw.githubusercontent.com/local/test/main/dist/routes/storehouses/qingning/warehouse.json",
-      "https://ghproxy.net/https://raw.githubusercontent.com/local/test/main/dist/routes/storehouses/qingning/warehouse.json",
-      "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/storehouses/qingning/warehouse.json"
+      "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json",
+      "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/qingning/warehouse.json",
+      "https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/storehouses/qingning/warehouse.json"
     ],
     "metadata": {
       "origin": "warehouse",
@@ -18,9 +18,9 @@
     "type": "storehouse",
     "path": "dist/routes/storehouses/nxog/t.json",
     "mirrors": [
-      "https://raw.githubusercontent.com/local/test/main/dist/routes/storehouses/nxog/t.json",
-      "https://ghproxy.net/https://raw.githubusercontent.com/local/test/main/dist/routes/storehouses/nxog/t.json",
-      "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/storehouses/nxog/t.json"
+      "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/nxog/t.json",
+      "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/nxog/t.json",
+      "https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/storehouses/nxog/t.json"
     ],
     "metadata": {
       "original_level2": "https://t.v.nxog.top/nxog/oua.php?b=t",
@@ -32,9 +32,9 @@
     "type": "storehouse",
     "path": "dist/routes/storehouses/nxog/t1.json",
     "mirrors": [
-      "https://raw.githubusercontent.com/local/test/main/dist/routes/storehouses/nxog/t1.json",
-      "https://ghproxy.net/https://raw.githubusercontent.com/local/test/main/dist/routes/storehouses/nxog/t1.json",
-      "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/storehouses/nxog/t1.json"
+      "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/nxog/t1.json",
+      "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/nxog/t1.json",
+      "https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/storehouses/nxog/t1.json"
     ],
     "metadata": {
       "original_level2": "https://by1.nxog.eu.org/?b=t",
@@ -46,9 +46,9 @@
     "type": "storehouse",
     "path": "dist/routes/storehouses/nxog/t2.json",
     "mirrors": [
-      "https://raw.githubusercontent.com/local/test/main/dist/routes/storehouses/nxog/t2.json",
-      "https://ghproxy.net/https://raw.githubusercontent.com/local/test/main/dist/routes/storehouses/nxog/t2.json",
-      "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/storehouses/nxog/t2.json"
+      "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/nxog/t2.json",
+      "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/storehouses/nxog/t2.json",
+      "https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/storehouses/nxog/t2.json"
     ],
     "metadata": {
       "original_level2": "https://by2.nxog.eu.org/?b=t",
@@ -60,9 +60,9 @@
     "type": "pipeline",
     "path": "dist/routes/multi/index.json",
     "mirrors": [
-      "https://raw.githubusercontent.com/local/test/main/dist/routes/multi/index.json",
-      "https://ghproxy.net/https://raw.githubusercontent.com/local/test/main/dist/routes/multi/index.json",
-      "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/multi/index.json"
+      "https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/multi/index.json",
+      "https://ghproxy.net/https://raw.githubusercontent.com/tanranv5/multi-warehouse-action/main/dist/routes/multi/index.json",
+      "https://cdn.jsdelivr.net/gh/tanranv5/multi-warehouse-action@main/dist/routes/multi/index.json"
     ],
     "metadata": {}
   }

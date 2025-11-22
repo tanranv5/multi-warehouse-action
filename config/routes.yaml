@@ -26,7 +26,7 @@ qingning_remote:
   remark_template: "青宁自动抓取：{name}"
   validation:
     enabled: true
-    timeout: 4
+    timeout: 30
     max_count: 20
 
 pipelines:

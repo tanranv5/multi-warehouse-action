@@ -462,6 +462,11 @@ def refresh_qingning_sources(config: Dict[str, Any], repo_root: Path) -> None:
         print("[WARN] QingNing README 未解析出单仓链接，保留旧数据")
         return
 
+    sources = validate_single_sources(sources, settings.get("validation"), headers)
+    if not sources:
+        print("[WARN] QingNing 验证后无可用单仓，保留旧数据")
+        return
+
     remark_template = settings.get("remark_template", "青宁自动抓取：{name}")
     payload = {
         "sources": [
@@ -477,6 +482,34 @@ def refresh_qingning_sources(config: Dict[str, Any], repo_root: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[INFO] 已同步 QingNing 单仓 {len(sources)} 条 -> {output_path}")
+
+
+def validate_single_sources(
+    sources: List[Dict[str, str]],
+    validation_settings: Optional[Dict[str, Any]],
+    headers_override: Optional[Dict[str, str]] = None,
+) -> List[Dict[str, str]]:
+    if not validation_settings or validation_settings.get("enabled", True) is False:
+        return sources
+    timeout = validation_settings.get("timeout", 10)
+    require_json = validation_settings.get("require_json", False)
+    headers = headers_override or validation_settings.get("headers") or {}
+    max_count = validation_settings.get("max_count")
+
+    validated: List[Dict[str, str]] = []
+    for item in sources:
+        if max_count and len(validated) >= max_count:
+            break
+        url = item["url"]
+        try:
+            resp = requests.get(url, headers=headers, timeout=timeout)
+            resp.raise_for_status()
+            if require_json:
+                json.loads(resp.text)
+            validated.append(item)
+        except Exception as exc:  # noqa: BLE001
+            print(f"[WARN] 跳过不可用单仓 {url}: {exc}")
+    return validated
 
 
 # ----------------------------------------------------------------------

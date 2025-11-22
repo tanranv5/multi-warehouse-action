@@ -1,10 +1,10 @@
 {
-  "generated_at": 1763808043.9902167,
+  "generated_at": 1763810074.831131,
   "pipelines": [
     {
       "id": "qingning_storehouse",
       "kind": "local_urls_storehouse",
-      "duration_ms": 1.53,
+      "duration_ms": 6.57,
       "output": null,
       "source": {
         "path": "data/qingning_single.json",
@@ -15,7 +15,7 @@
     {
       "id": "nxog_storehouse",
       "kind": "remote_storehouse",
-      "duration_ms": 31845.19,
+      "duration_ms": 1850.92,
       "output": null,
       "source": {
         "url": "https://t.v.nxog.top/apia?id=1"
@@ -26,7 +26,7 @@
     {
       "id": "multi_combined",
       "kind": "merge_storehouse",
-      "duration_ms": 0.03,
+      "duration_ms": 0.06,
       "output": "dist/routes/multi/index.json",
       "source": null,
       "inputs": [

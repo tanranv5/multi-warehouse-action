@@ -1,94 +1,9 @@
 {
   "sources": [
     {
-      "name": "🌟tvbox和影视仓接口🌟",
-      "url": "https://132130.v.nxog.top/api1.php?id=3",
-      "remark": "青宁自动抓取：🌟tvbox和影视仓接口🌟"
-    },
-    {
-      "name": "🌟星辰🌟",
-      "url": "https://fmbox.cc/",
-      "remark": "青宁自动抓取：🌟星辰🌟"
-    },
-    {
-      "name": "🌟分享🌟",
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/maoystv/6/main/000.json",
-      "remark": "青宁自动抓取：🌟分享🌟"
-    },
-    {
-      "name": "🌟小屋🌟",
-      "url": "https://git.acwing.com/shhentu/lzxw/-/raw/main/Monster.json",
-      "remark": "青宁自动抓取：🌟小屋🌟"
-    },
-    {
-      "name": "🌟影探🌟",
-      "url": "https://ghp.ci/https://raw.githubusercontent.com/vbskycn/tvbox/a244f6f5c08565a9a0e319d6a3cc2e919d05d893/MY%E6%8E%A2%E6%8E%A2.txt",
-      "remark": "青宁自动抓取：🌟影探🌟"
-    },
-    {
-      "name": "🌟宝盒🌟",
-      "url": "http://mzjk.top/禁止贩卖",
-      "remark": "青宁自动抓取：🌟宝盒🌟"
-    },
-    {
-      "name": "🌟肥猫🌟",
-      "url": "http://肥猫.com",
-      "remark": "青宁自动抓取：🌟肥猫🌟"
-    },
-    {
-      "name": "🌟饭太硬🌟",
-      "url": "http://www.饭太硬.com/tv",
-      "remark": "青宁自动抓取：🌟饭太硬🌟"
-    },
-    {
-      "name": "🌟小米🌟",
-      "url": "https://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json",
-      "remark": "青宁自动抓取：🌟小米🌟"
-    },
-    {
-      "name": "🌟OK🌟",
-      "url": "http://ok321.top/ok",
-      "remark": "青宁自动抓取：🌟OK🌟"
-    },
-    {
-      "name": "🌟王小二🌟",
-      "url": "http://tvbox.王二小放牛娃.top",
-      "remark": "青宁自动抓取：🌟王小二🌟"
-    },
-    {
-      "name": "🌟摸鱼🌟",
-      "url": "http://我不是.摸鱼儿.com",
-      "remark": "青宁自动抓取：🌟摸鱼🌟"
-    },
-    {
-      "name": "🌟开心🌟",
-      "url": "http://kxrj.site:55/天天开心",
-      "remark": "青宁自动抓取：🌟开心🌟"
-    },
-    {
-      "name": "🌟讴歌🌟",
-      "url": "https://xn--tkh-mf3g9f.v.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌tkh",
-      "remark": "青宁自动抓取：🌟讴歌🌟"
-    },
-    {
-      "name": "🌟青龙🌟",
-      "url": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json",
-      "remark": "青宁自动抓取：🌟青龙🌟"
-    },
-    {
-      "name": "🌟恒星🌟",
-      "url": "http://yuhuahx.com/%E8%82%B2%E5%8D%8E%E5%AD%A6%E5%A0%82/%E6%96%A7%E5%A4%B4%E5%B8%AE.php",
-      "remark": "青宁自动抓取：🌟恒星🌟"
-    },
-    {
       "name": "🌟巧记🌟",
       "url": "http://cdn.qiaoji8.com/tvbox.json",
       "remark": "青宁自动抓取：🌟巧记🌟"
-    },
-    {
-      "name": "🌟喵影视🌟",
-      "url": "http://meowtv.cn/tv",
-      "remark": "青宁自动抓取：🌟喵影视🌟"
     },
     {
       "name": "🌟挺好🌟",
@@ -101,24 +16,9 @@
       "remark": "青宁自动抓取：🌟驸马🌟"
     },
     {
-      "name": "🌟龙一🌟",
-      "url": "https://xn--qoqw77q.top/",
-      "remark": "青宁自动抓取：🌟龙一🌟"
-    },
-    {
       "name": "🌟传说🌟",
       "url": "https://chuanshuo.77blog.cn/tv.json",
       "remark": "青宁自动抓取：🌟传说🌟"
-    },
-    {
-      "name": "🌟宝盒🌟",
-      "url": "https://ghp.ci/raw.githubusercontent.com/guot55/YGBH/main/vip2.json",
-      "remark": "青宁自动抓取：🌟宝盒🌟"
-    },
-    {
-      "name": "🌟西夏🌟",
-      "url": "https://2912.kstore.space/0506.json",
-      "remark": "青宁自动抓取：🌟西夏🌟"
     },
     {
       "name": "🌟蓝天🌟",
@@ -131,129 +31,9 @@
       "remark": "青宁自动抓取：🌟非凡🌟"
     },
     {
-      "name": "🌟海冰🌟",
-      "url": "https://git.acwing.com/cisenyuan/kdsb/-/raw/main/%E6%B5%B7%E5%85%B5%E5%BD%B1%E8%A7%86.json",
-      "remark": "青宁自动抓取：🌟海冰🌟"
-    },
-    {
-      "name": "🌟花生🌟",
-      "url": "https://git.acwing.com/abai/tv/-/raw/main/huas.json",
-      "remark": "青宁自动抓取：🌟花生🌟"
-    },
-    {
-      "name": "🌟刘伟🌟",
-      "url": "https://git.acwing.com/lw0704/66/-/raw/master/jjzx.json",
-      "remark": "青宁自动抓取：🌟刘伟🌟"
-    },
-    {
-      "name": "🌟超级🌟",
-      "url": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/CJ.json",
-      "remark": "青宁自动抓取：🌟超级🌟"
-    },
-    {
-      "name": "🌟剪影🌟",
-      "url": "https://git.acwing.com/lkq0379/zjys/-/raw/main/zjys.json",
-      "remark": "青宁自动抓取：🌟剪影🌟"
-    },
-    {
-      "name": "🌟金鹰🌟",
-      "url": "http://550.3vcn.work/wdjyys.json",
-      "remark": "青宁自动抓取：🌟金鹰🌟"
-    },
-    {
-      "name": "🌟英雄🌟",
-      "url": "https://cdn.githubraw.com/xuexuguang/tvbox_spider/main/tv/kk/heroaku_dtes.json",
-      "remark": "青宁自动抓取：🌟英雄🌟"
-    },
-    {
-      "name": "🌟短剧🌟",
-      "url": "http://74.120.175.78/JK/XYQTVBox/dj.json",
-      "remark": "青宁自动抓取：🌟短剧🌟"
-    },
-    {
-      "name": "🌟白龙🌟",
-      "url": "http://124.71.189.194/a.json",
-      "remark": "青宁自动抓取：🌟白龙🌟"
-    },
-    {
-      "name": "🌟肥猫新接口🌟",
-      "url": "http://肥猫.com/",
-      "remark": "青宁自动抓取：🌟肥猫新接口🌟"
-    },
-    {
-      "name": "🌟电视盒子集🌟",
-      "url": "https://chuanshuo.77blog.cn/dc.json",
-      "remark": "青宁自动抓取：🌟电视盒子集🌟"
-    },
-    {
-      "name": "🌟码点小干货🌟",
-      "url": "http://120.79.4.185/dc.json",
-      "remark": "青宁自动抓取：🌟码点小干货🌟"
-    },
-    {
       "name": "🌟备用🌟",
       "url": "http://pandown.pro/tvbox/tvbox.json",
       "remark": "青宁自动抓取：🌟备用🌟"
-    },
-    {
-      "name": "🌟dxawi🌟",
-      "url": "https://dxawi.github.io/0/0.json",
-      "remark": "青宁自动抓取：🌟dxawi🌟"
-    },
-    {
-      "name": "🌟香雅情🌟",
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
-      "remark": "青宁自动抓取：🌟香雅情🌟"
-    },
-    {
-      "name": "🌟南风🌟",
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-      "remark": "青宁自动抓取：🌟南风🌟"
-    },
-    {
-      "name": "🌟龙伊🌟",
-      "url": "https://龙伊.top",
-      "remark": "青宁自动抓取：🌟龙伊🌟"
-    },
-    {
-      "name": "🌟刘备🌟",
-      "url": "https://raw.liucn.cc/box/m.json",
-      "remark": "青宁自动抓取：🌟刘备🌟"
-    },
-    {
-      "name": "🌟荷城茶秀🌟",
-      "url": "http://rihou.cc:88/荷城茶秀",
-      "remark": "青宁自动抓取：🌟荷城茶秀🌟"
-    },
-    {
-      "name": "🌟iitvba🌟",
-      "url": "http://tt.iitvba.com/vip/tv.json",
-      "remark": "青宁自动抓取：🌟iitvba🌟"
-    },
-    {
-      "name": "🌟星辰🌟",
-      "url": "http://8.210.232.168/xc.json",
-      "remark": "青宁自动抓取：🌟星辰🌟"
-    },
-    {
-      "name": "🌟茄子库线路🌟",
-      "url": "http://tv.奥利给.top",
-      "remark": "青宁自动抓取：🌟茄子库线路🌟"
-    },
-    {
-      "name": "🌟运输车🌟",
-      "url": "https://weixine.net/ysc.json",
-      "remark": "青宁自动抓取：🌟运输车🌟"
-    },
-    {
-      "name": "🌟小盒子🌟",
-      "url": "http://xhztv.top/xhz",
-      "remark": "青宁自动抓取：🌟小盒子🌟"
-    },
-    {
-      "name": "🌟4k接口🌟",
-      "url": "http://xhztv.top/4k.json",
-      "remark": "青宁自动抓取：🌟4k接口🌟"
     },
     {
       "name": "🌟爱TV吧最新自营接口🌟",
@@ -261,44 +41,9 @@
       "remark": "青宁自动抓取：🌟爱TV吧最新自营接口🌟"
     },
     {
-      "name": "🌟自营接口2🌟",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/txtvv/txtv/main/tvbox/0326.json",
-      "remark": "青宁自动抓取：🌟自营接口2🌟"
-    },
-    {
-      "name": "🌟云星日记🌟",
-      "url": "http://itvbox.cc/云星日记",
-      "remark": "青宁自动抓取：🌟云星日记🌟"
-    },
-    {
-      "name": "🌟失眠的夜🌟",
-      "url": "http://清清.摸鱼儿.top",
-      "remark": "青宁自动抓取：🌟失眠的夜🌟"
-    },
-    {
       "name": "🌟俊佬🌟",
       "url": "http://home.jundie.top:81/top98.json",
       "remark": "青宁自动抓取：🌟俊佬🌟"
-    },
-    {
-      "name": "🌟饭太硬🌟",
-      "url": "http://www.饭太硬.com/tv/",
-      "remark": "青宁自动抓取：🌟饭太硬🌟"
-    },
-    {
-      "name": "🌟菜妮丝🌟",
-      "url": "https://tv.xn--yhqu5zs87a.top",
-      "remark": "青宁自动抓取：🌟菜妮丝🌟"
-    },
-    {
-      "name": "🌟D佬大🌟",
-      "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json",
-      "remark": "青宁自动抓取：🌟D佬大🌟"
-    },
-    {
-      "name": "🌟一十锦🌟",
-      "url": "http://jin.锦哥哥.love",
-      "remark": "青宁自动抓取：🌟一十锦🌟"
     },
     {
       "name": "🌟动漫城🌟",
@@ -306,94 +51,9 @@
       "remark": "青宁自动抓取：🌟动漫城🌟"
     },
     {
-      "name": "🌟吾爱🌟",
-      "url": "http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0",
-      "remark": "青宁自动抓取：🌟吾爱🌟"
-    },
-    {
-      "name": "🌟小米🌟",
-      "url": "http://www.mpanso.com/小米/DEMO.json",
-      "remark": "青宁自动抓取：🌟小米🌟"
-    },
-    {
-      "name": "🌟恒星🌟",
-      "url": "http://yuhuahx.com/育华学堂/斧头帮.php",
-      "remark": "青宁自动抓取：🌟恒星🌟"
-    },
-    {
-      "name": "🌟神仙🌟",
-      "url": "http://pt.sxtv.top:66/sx.json",
-      "remark": "青宁自动抓取：🌟神仙🌟"
-    },
-    {
-      "name": "🌟万达🌟",
-      "url": "https://www.macms.pro/box/3.json",
-      "remark": "青宁自动抓取：🌟万达🌟"
-    },
-    {
-      "name": "🌟南风🌟",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-      "remark": "青宁自动抓取：🌟南风🌟"
-    },
-    {
-      "name": "🌟X影🌟",
-      "url": "https://gitlab.com/mfkdy/vip/-/raw/main/Lite.json",
-      "remark": "青宁自动抓取：🌟X影🌟"
-    },
-    {
-      "name": "🌟二小🌟",
-      "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
-      "remark": "青宁自动抓取：🌟二小🌟"
-    },
-    {
-      "name": "🌟东辰🌟",
-      "url": "https://gitee.com/dongchenliu/liu/raw/master/yb.json",
-      "remark": "青宁自动抓取：🌟东辰🌟"
-    },
-    {
-      "name": "🌟心魔🌟",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
-      "remark": "青宁自动抓取：🌟心魔🌟"
-    },
-    {
-      "name": "🌟小马🌟",
-      "url": "https://szyyds.cn/tv/x.json",
-      "remark": "青宁自动抓取：🌟小马🌟"
-    },
-    {
-      "name": "🌟业余🌟",
-      "url": "https://yydf.540734621.xyz/QQ/yydf2024.json",
-      "remark": "青宁自动抓取：🌟业余🌟"
-    },
-    {
-      "name": "🌟飘零🌟",
-      "url": "https://100km.top/0",
-      "remark": "青宁自动抓取：🌟飘零🌟"
-    },
-    {
-      "name": "🌟星辰🌟",
-      "url": "https://fmbox.cc",
-      "remark": "青宁自动抓取：🌟星辰🌟"
-    },
-    {
-      "name": "🌟宝盒🌟",
-      "url": "http://ygbh.live/box.php",
-      "remark": "青宁自动抓取：🌟宝盒🌟"
-    },
-    {
-      "name": "🌟秒播🌟",
-      "url": "http://miao.qoo.qoo.us.kg/",
-      "remark": "青宁自动抓取：🌟秒播🌟"
-    },
-    {
       "name": "🌟春莹🌟",
       "url": "https://gitlink.org.cn/api/hailin/aishangtv5/raw/tvbox/aishang.json?ref=master",
       "remark": "青宁自动抓取：🌟春莹🌟"
-    },
-    {
-      "name": "🌟黄金🌟",
-      "url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json",
-      "remark": "青宁自动抓取：🌟黄金🌟"
     },
     {
       "name": "🌟道长🌟",
@@ -406,99 +66,9 @@
       "remark": "青宁自动抓取：🌟网盘🌟"
     },
     {
-      "name": "🌟各种网盘🌟",
-      "url": "https://gitdl.cn/https://raw.githubusercontent.com/leevi0709/one/main/jsm.json",
-      "remark": "青宁自动抓取：🌟各种网盘🌟"
-    },
-    {
-      "name": "🌟PizazzGY🌟",
-      "url": "https://github.moeyy.xyz/https://github.com/PizazzGY/TVBox/blob/main/api.json",
-      "remark": "青宁自动抓取：🌟PizazzGY🌟"
-    },
-    {
-      "name": "🌟影视资源🌟",
-      "url": "http://bp.tvbox.cam",
-      "remark": "青宁自动抓取：🌟影视资源🌟"
-    },
-    {
-      "name": "🌟儿童🌟",
-      "url": "https://xn--2qg-mf3g9f.v.nxog.top/m/111.php",
-      "remark": "青宁自动抓取：🌟儿童🌟"
-    },
-    {
-      "name": "🌟喵影视🌟",
-      "url": "http://meowtv.top/tv",
-      "remark": "青宁自动抓取：🌟喵影视🌟"
-    },
-    {
-      "name": "🌟道长🌟",
-      "url": "https://pastebin.com/raw/5NHaxyGR",
-      "remark": "青宁自动抓取：🌟道长🌟"
-    },
-    {
-      "name": "🌟dxawi0🌟",
-      "url": "https://xhdwc.tk/0",
-      "remark": "青宁自动抓取：🌟dxawi0🌟"
-    },
-    {
       "name": "🌟挺好分享🌟",
       "url": "http://ztha.top/TVBox/thdjk.json",
       "remark": "青宁自动抓取：🌟挺好分享🌟"
-    },
-    {
-      "name": "🌟挺好专享🌟",
-      "url": "http://ztha.top/ys.json",
-      "remark": "青宁自动抓取：🌟挺好专享🌟"
-    },
-    {
-      "name": "🌟PG线路丨240923🌟",
-      "url": "http://ztha.top/PG/jsm.json",
-      "remark": "青宁自动抓取：🌟PG线路丨240923🌟"
-    },
-    {
-      "name": "🌟饭影视🌟",
-      "url": "http://饭太硬.com/tv",
-      "remark": "青宁自动抓取：🌟饭影视🌟"
-    },
-    {
-      "name": "🌟讴歌线路🌟",
-      "url": "https://xn--zp8-mf3g9f.v.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌zp8",
-      "remark": "青宁自动抓取：🌟讴歌线路🌟"
-    },
-    {
-      "name": "🌟月光宝盒🌟",
-      "url": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/max.json",
-      "remark": "青宁自动抓取：🌟月光宝盒🌟"
-    },
-    {
-      "name": "🌟OK线路🌟",
-      "url": "https://gitee.com/okjack/okk/raw/master/op.txt",
-      "remark": "青宁自动抓取：🌟OK线路🌟"
-    },
-    {
-      "name": "🌟PG线路🌟",
-      "url": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json",
-      "remark": "青宁自动抓取：🌟PG线路🌟"
-    },
-    {
-      "name": "🌟吾爱影视🌟",
-      "url": "http://52bsj.vip:98/wuai",
-      "remark": "青宁自动抓取：🌟吾爱影视🌟"
-    },
-    {
-      "name": "🌟这暴脾气🌟",
-      "url": "http://xhww.fun:63/小米/DEMO.json",
-      "remark": "青宁自动抓取：🌟这暴脾气🌟"
-    },
-    {
-      "name": "🌟肥猫肥猫🌟",
-      "url": "http://我不是.肥猫.love:63/接口禁止贩卖",
-      "remark": "青宁自动抓取：🌟肥猫肥猫🌟"
-    },
-    {
-      "name": "🌟高天流云🌟",
-      "url": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-      "remark": "青宁自动抓取：🌟高天流云🌟"
     }
   ]
 }

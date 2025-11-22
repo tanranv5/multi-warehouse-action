@@ -24,6 +24,11 @@ qingning_remote:
   output: data/qingning_single.json
   single_name_template: "🌟{name}🌟"
   remark_template: "青宁自动抓取：{name}"
+  validation:
+    enabled: true
+    timeout: 4
+    require_json: true
+    max_count: 20
 
 pipelines:
   - id: qingning_storehouse

@@ -1,0 +1,18 @@
+# 默认配置将应用到所有 source，可在源级别覆盖
+defaults:
+  timeout: 12
+  retries: 1
+  headers:
+    User-Agent: okhttp/3.12.0
+    Accept: application/json
+
+sources:
+  - name: nxog_primary
+    url: https://t.v.nxog.top/apia?id=1
+    expect_json: true
+    description: 来自 nxog 的主接口，需保持 okhttp UA
+
+  - name: nxog_extended
+    url: https://t.v.nxog.top/apia?id=2
+    expect_json: true
+    description: nxog 体系的扩展多仓接口，结构与主仓兼容

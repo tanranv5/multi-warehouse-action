@@ -1,0 +1,24 @@
+{
+  "storeHouse": [
+    {
+      "sourceName": "🌹warehouse🌹",
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/storehouses/qingning/warehouse.json",
+      "sourceRemark": "🌹warehouse🌹"
+    },
+    {
+      "sourceName": "🌹t主仓库🌹",
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/storehouses/nxog/t.json",
+      "sourceRemark": "nxog"
+    },
+    {
+      "sourceName": "🌹t备1仓库🌹",
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/storehouses/nxog/t1.json",
+      "sourceRemark": "nxog"
+    },
+    {
+      "sourceName": "🌷t备2仓库🌷",
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/local/test@main/dist/routes/storehouses/nxog/t2.json",
+      "sourceRemark": "nxog"
+    }
+  ]
+}

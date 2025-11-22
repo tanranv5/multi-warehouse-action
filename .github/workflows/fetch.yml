@@ -1,0 +1,46 @@
+name: Sync Multi Warehouse APIs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 * * * *'
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch multi warehouse sources
+        run: |
+          python src/fetch_multi.py \
+            --config config/routes.yaml \
+            --public-repo "${{ github.repository }}" \
+            --public-branch "${{ github.ref_name }}"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: multi-warehouse-data
+          path: |
+            dist/*.json
+            dist/*.txt
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: 更新多仓数据'
+          file_pattern: 'dist/*.json dist/*.txt'

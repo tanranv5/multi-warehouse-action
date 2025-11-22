@@ -1,0 +1,68 @@
+defaults:
+  timeout: 12
+  headers:
+    User-Agent: okhttp/3.12.0
+    Accept: '*/*'
+
+filters:
+  blocked_keywords:
+    - 公众号
+    - 收集
+    - 广告
+  blocked_url_keywords:
+    - /m/?ou=
+    - mz=index
+    - clan://
+    - TVBoxOSC/tvbox/api.json
+
+qingning_remote:
+  enabled: true
+  urls:
+    - https://cdn.jsdelivr.net/gh/Zhou-Li-Bin/Tvbox-QingNing@main/README.md
+    - https://fastly.jsdelivr.net/gh/Zhou-Li-Bin/Tvbox-QingNing@main/README.md
+  output: data/qingning_single.json
+  single_name_template: "🌟{name}🌟"
+  remark_template: "青宁自动抓取：{name}"
+
+pipelines:
+  - id: qingning_storehouse
+    kind: local_urls_storehouse
+    origin: warehouse
+    store:
+      name: 🌹warehouse🌹
+      remark: 🌹warehouse🌹
+    source:
+      path: data/qingning_single.json
+      field: sources
+    expand:
+      level2_output_dir: dist/routes/storehouses/qingning
+      level2_public_templates:
+        - https://cdn.jsdelivr.net/gh/{repo}@{branch}/{path}
+        - https://raw.githubusercontent.com/{repo}/{branch}/{path}
+        - https://ghproxy.net/https://raw.githubusercontent.com/{repo}/{branch}/{path}
+
+  - id: nxog_storehouse
+    kind: remote_storehouse
+    origin: nxog
+    source:
+      url: https://t.v.nxog.top/apia?id=1
+    expand:
+      level2_field: urls
+      level2_output_dir: dist/routes/storehouses/nxog
+      level2_public_templates:
+        - https://cdn.jsdelivr.net/gh/{repo}@{branch}/{path}
+        - https://raw.githubusercontent.com/{repo}/{branch}/{path}
+        - https://ghproxy.net/https://raw.githubusercontent.com/{repo}/{branch}/{path}
+
+  - id: multi_combined
+    kind: merge_storehouse
+    inputs:
+      - qingning_storehouse
+      - nxog_storehouse
+    output: dist/routes/multi/index.json
+
+domestic:
+  templates:
+    - https://raw.githubusercontent.com/{repo}/{branch}/{path}
+    - https://ghproxy.net/https://raw.githubusercontent.com/{repo}/{branch}/{path}
+    - https://cdn.jsdelivr.net/gh/{repo}@{branch}/{path}

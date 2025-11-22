@@ -47,7 +47,13 @@ class RouteBuilder:
             pipeline_id = pipeline["id"]
             kind = pipeline["kind"]
             start = time.perf_counter()
-            data = self._dispatch_pipeline(pipeline)
+            error_message: Optional[str] = None
+            try:
+                data = self._dispatch_pipeline(pipeline)
+            except Exception as exc:  # noqa: BLE001
+                error_message = str(exc)
+                print(f"[WARN] pipeline {pipeline_id} failed: {exc}")
+                data = self._default_payload_for_kind(kind)
             duration_ms = round((time.perf_counter() - start) * 1000, 2)
 
             self.context[pipeline_id] = data
@@ -73,16 +79,17 @@ class RouteBuilder:
                     artifact_type="pipeline",
                 )
 
-            self.pipeline_records.append(
-                {
-                    "id": pipeline_id,
-                    "kind": kind,
-                    "duration_ms": duration_ms,
-                    "output": output_rel,
-                    "source": pipeline.get("source"),
-                    "inputs": pipeline.get("inputs"),
-                }
-            )
+            record = {
+                "id": pipeline_id,
+                "kind": kind,
+                "duration_ms": duration_ms,
+                "output": output_rel,
+                "source": pipeline.get("source"),
+                "inputs": pipeline.get("inputs"),
+            }
+            if error_message:
+                record["error"] = error_message
+            self.pipeline_records.append(record)
 
         self._write_summary()
         self._write_domestic_links()
@@ -383,6 +390,13 @@ class RouteBuilder:
         ascii_value = normalized.encode("ascii", "ignore").decode("ascii")
         ascii_value = re.sub(r"[^a-zA-Z0-9]+", "-", ascii_value).strip("-")
         return ascii_value.lower() or "source"
+
+    def _default_payload_for_kind(self, kind: str) -> Dict[str, Any]:
+        if kind in {"remote_storehouse", "local_storehouse", "local_urls_storehouse", "merge_storehouse", "copy_route"}:
+            return {"storeHouse": []}
+        if kind == "remote_urls":
+            return {"urls": []}
+        return {}
 
 
 def refresh_qingning_sources(config: Dict[str, Any], repo_root: Path) -> None:

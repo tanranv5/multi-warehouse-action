@@ -3,12 +3,6 @@
   "wallpaper": "https://bing.img.run/uhd.php",
   "lives": [
     {
-      "group": "redirect",
-      "channels": [
-        { "name": "live", "urls": ["proxy://do=live&type=txt&ext="] }
-      ]
-    },
-    {
         "name": "IPV4",
         "type": 0,
         "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",

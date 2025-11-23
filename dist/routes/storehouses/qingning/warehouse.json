@@ -7,19 +7,30 @@
     {
       "name": "🌟饭太硬🌟",
       "url": "http://www.饭太硬.com/tv"
-    },{
-      "name": "🌟OK🌟",
-      "url": "http://ok321.top/tv"
-    },{
+    },
+    {
+      "name": "🌟小米🌟",
+      "url": "https://mpanso.me/DEMO.json"
+    },
+    {
       "name": "🌟王二小🌟",
       "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/"
-    },{
+    },
+    {
       "name": "🌟南风🌟",
-      "url": "https://g.3344550.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
+    },
+    {
+      "name": "🌟菜妮丝🌟",
+      "url": "https://tvbox.cainisi.c"
     },
     {
       "name": "🌟巧记🌟",
       "url": "http://cdn.qiaoji8.com/tvbox.json"
+    },
+    {
+      "name": "🌟挺好🌟",
+      "url": "https://ztha.top/TVBox/thdjk.json"
     },
     {
       "name": "🌟驸马🌟",
@@ -54,8 +65,428 @@
       "url": "https://www.yingm.cc/dm/dm.json"
     },
     {
+      "name": "🌟春莹🌟",
+      "url": "https://gitlink.org.cn/api/hailin/aishangtv5/raw/tvbox/aishang.json?ref=master"
+    },
+    {
       "name": "🌟道长🌟",
       "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json"
+    },
+    {
+      "name": "🌟网盘🌟",
+      "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Dx.json"
+    },
+    {
+      "name": "🌟挺好分享🌟",
+      "url": "http://ztha.top/TVBox/thdjk.json"
+    },
+    {
+      "name": "🌟厂长视频🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/changZhang20240614.js"
+    },
+    {
+      "name": "🌟在線之家🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/zxzj.js"
+    },
+    {
+      "name": "🌟歐樂🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/olevod.js"
+    },
+    {
+      "name": "🌟燒火電影🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/saohuo.js"
+    },
+    {
+      "name": "🌟韓劇看看🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/hjkk.js"
+    },
+    {
+      "name": "🌟素白白🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/subaibai.js"
+    },
+    {
+      "name": "🌟1080ee🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/1080ee.js"
+    },
+    {
+      "name": "🌟兩個BT🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/bttwo.js"
+    },
+    {
+      "name": "🌟新視覺🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/6080.js"
+    },
+    {
+      "name": "🌟天天影視🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/tiantian.js"
+    },
+    {
+      "name": "🌟蛋蛋劇🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/dandanju.js"
+    },
+    {
+      "name": "🌟耐看點播🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/nkvod.js"
+    },
+    {
+      "name": "🌟金牌影院🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/jpyy.js"
+    },
+    {
+      "name": "🌟4k-av🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/4kav.js"
+    },
+    {
+      "name": "🌟瓜子web🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/gzys.js"
+    },
+    {
+      "name": "🌟瓜子app🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/gzapp.js"
+    },
+    {
+      "name": "🌟囧次元🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/jcy.js"
+    },
+    {
+      "name": "🌟緣覺影視🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/yjys.js"
+    },
+    {
+      "name": "🌟奇優影院🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/qiyou.js"
+    },
+    {
+      "name": "🌟嗨劇網🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/haiju.js"
+    },
+    {
+      "name": "🌟短劇天堂🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/duanjutt.js"
+    },
+    {
+      "name": "🌟老白聽書🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/laobai.js"
+    },
+    {
+      "name": "🌟麻豆社🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/madou.js"
+    },
+    {
+      "name": "🌟MISSAV🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/missav.js"
+    },
+    {
+      "name": "🌟Jable🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/jable.js"
+    },
+    {
+      "name": "🌟玩偶姐姐🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/hkdoll.js"
+    },
+    {
+      "name": "🌟Netflav🌟",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/yswag/uzVideo/main/js/spider/netflav.js"
+    },
+    {
+      "name": "🌟🔵如意🌟",
+      "url": "https://cj.rycjapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵黑木耳🌟",
+      "url": "https://json.heimuer.xyz/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵华为吧🌟",
+      "url": "https://cjhwba.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵1080源🌟",
+      "url": "https://api.1080zyku.com/inc/apijson.php"
+    },
+    {
+      "name": "🌟🔵非凡源🌟",
+      "url": "https://cj.ffzyapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵ikun源🌟",
+      "url": "https://ikunzyapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵阿里源🌟",
+      "url": "http://aliys.cn:90/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵量子源🌟",
+      "url": "https://cj.lzcaiji.com/api.php/provide/vod/at/json"
+    },
+    {
+      "name": "🌟🔵360🌟",
+      "url": "https://360zy.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵飞刀🌟",
+      "url": "http://www.feidaozy.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵墨斗🌟",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵华为吧🌟",
+      "url": "https://hw8.live/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵金鹰🌟",
+      "url": "https://jinyingzy.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵乐视🌟",
+      "url": "https://leshiapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵OK🌟",
+      "url": "https://okzyw9.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵宝片🌟",
+      "url": "https://zpsps.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵映迷🌟",
+      "url": "https://www.inmi.app/api.php/provide/vod/at/xml"
+    },
+    {
+      "name": "🌟🔵小黄人🌟",
+      "url": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵牛牛🌟",
+      "url": "https://api.niuniuzy.me/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵丫丫🌟",
+      "url": "https://cj.yayazy.net/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵影图🌟",
+      "url": "https://cj.vodimg.top/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵小猫咪🌟",
+      "url": "http://zy.xiaomaomi.cc/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵U酷🌟",
+      "url": "https://api.ukuapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵豪华🌟",
+      "url": "https://hhzyapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵极速🌟",
+      "url": "https://jszyapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵索尼🌟",
+      "url": "https://suoniapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵非凡🌟",
+      "url": "http://cj.ffzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵量子🌟",
+      "url": "https://cj.lziapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵暴风🌟",
+      "url": "https://bfzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵红牛🌟",
+      "url": "https://www.hongniuzy2.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵飞速🌟",
+      "url": "https://www.feisuzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵快车🌟",
+      "url": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8/"
+    },
+    {
+      "name": "🌟🔵闪电🌟",
+      "url": "http://sdzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵樱花🌟",
+      "url": "https://m3u8.apiyhzy.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵卧龙🌟",
+      "url": "https://collect.wolongzyw.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵飘花🌟",
+      "url": "http://www.ahjiuman.com/api.php/provide/vod/at/json"
+    },
+    {
+      "name": "🌟🔵虎牙🌟",
+      "url": "https://www.huyaapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵无尽🌟",
+      "url": "https://api.wujinapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵速博🌟",
+      "url": "https://subocaiji.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵新浪🌟",
+      "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵量子资源(lzm3u8)🌟",
+      "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/"
+    },
+    {
+      "name": "🌟🔵360资源1🌟",
+      "url": "https://360zy.com/api.php/seaxml/vod"
+    },
+    {
+      "name": "🌟🔵爱坤资源json🌟",
+      "url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json/"
+    },
+    {
+      "name": "🌟🔵飞速资源2🌟",
+      "url": "http://fszy1.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵飞速资源3🌟",
+      "url": "https://m3u8.feisuzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵1080资源🌟",
+      "url": "https://api.1080zyku.com/inc/api_mac10.php"
+    },
+    {
+      "name": "🌟🔵优质资源库🌟",
+      "url": "https://api.1080zyku.com/inc/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵天空资源🌟",
+      "url": "https://api.tiankongapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵天空资源1🌟",
+      "url": "https://m3u8.tiankongapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵天空资源(tkm3u8)🌟",
+      "url": "https://m3u8.tiankongapi.com/api.php/provide/vod/from/tkm3u8/"
+    },
+    {
+      "name": "🌟🔵光速资源🌟",
+      "url": "https://api.guangsuapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵光速资源(gsm3u8)🌟",
+      "url": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/"
+    },
+    {
+      "name": "🌟🔵快车资源🌟",
+      "url": "https://caiji.kczyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵八戒资源(php)🌟",
+      "url": "http://cj.bajiecaiji.com/inc/apijson_vod.php"
+    },
+    {
+      "name": "🌟🔵百度资源🌟",
+      "url": "https://api.apibdzy.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵神马资源🌟",
+      "url": "https://img.smdyw.top/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵红牛资源(hnm3u8)🌟",
+      "url": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/"
+    },
+    {
+      "name": "🌟🔵快看资源🌟",
+      "url": "https://kuaikan-api.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵无尽资源资源me🌟",
+      "url": "https://api.wujinapi.me/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵无尽资源资源net🌟",
+      "url": "https://api.wujinapi.net/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵天翼资源🌟",
+      "url": "https://www.911ysw.top/tianyi.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵天翼资源(json)🌟",
+      "url": "https://www.911ysw.top/tianyi.php/provide/vod/at/json"
+    },
+    {
+      "name": "🌟🔵39影视🌟",
+      "url": "https://www.39kan.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵39影视(json)🌟",
+      "url": "https://www.39kan.com/api.php/provide/vod/at/json/"
+    },
+    {
+      "name": "🌟🔵雨哥哥影视🌟",
+      "url": "http://cj.baozi66.top:66/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵步步高资源(json)🌟",
+      "url": "https://api.yparse.com/api/json"
+    },
+    {
+      "name": "🌟🔵最大资源🌟",
+      "url": "https://api.zuidapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵奇虎资源🌟",
+      "url": "https://caiji.qhzyapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "🌟🔵私密影院🌟",
+      "url": "https://simiyy.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵耀协资源🌟",
+      "url": "http://zyz.yxys.top/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵映迷资源🌟",
+      "url": "https://www.inmi.app/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵金鹰资源1🌟",
+      "url": "https://jyzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "🌟🔵金鹰资源(jinyingm3u8)🌟",
+      "url": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/"
+    },
+    {
+      "name": "🌟🔵闪电资源(sdm3u8)🌟",
+      "url": "https://sdzyapi.com/api.php/provide/vod/from/sdm3u8/"
+    },
+    {
+      "name": "🌟🔵四九资源🌟",
+      "url": "https://49zyw.com/api.php/provide/vod"
     }
   ]
 }
